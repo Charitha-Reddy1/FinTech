@@ -1,0 +1,24 @@
+{
+  "name": "fintech",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charitha-Reddy1/FinTech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charitha-Reddy1/FinTech/issues"
+  },
+  "homepage": "https://github.com/Charitha-Reddy1/FinTech#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
