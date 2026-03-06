@@ -7,6 +7,9 @@
 </head>
 <body>
     <h1 style="color:blue">Login form</h1>
+    <% if(error){ %>
+    <p style="color:red"><%= error %></p>
+    <% } %>
     <form action="/login" method="POST">
         <p><input type="text" name='email' placeholder="Enter ur Email"></p>
         <p><input type="password" name='password' placeholder="Enter ur password"></p>
