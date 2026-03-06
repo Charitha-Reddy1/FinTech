@@ -8,9 +8,12 @@
 <body>
     <h1 style="color:blue">Login form</h1>
     <form action="/login" method="POST">
-        <p><input type="text" placeholder="Enter ur Email"></p>
-        <p><input type="password" placeholder="Enter ur password"></p>
+        <p><input type="text" name='email' placeholder="Enter ur Email"></p>
+        <p><input type="password" name='password' placeholder="Enter ur password"></p>
         <button>Login</button>
     </form>
+    <p> New user?
+    <a href="/register">Click to register</a>
+    </p>
 </body>
 </html>
